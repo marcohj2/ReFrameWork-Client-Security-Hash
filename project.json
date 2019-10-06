@@ -1,0 +1,38 @@
+{
+  "name": "UiPath_Client_Security_Hash",
+  "description": "UiPath REFramework Client Security Hash",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "1.1.6479.13204",
+    "UiPath.Excel.Activities": "[2.6.3]",
+    "UiPath.Mail.Activities": "[1.6.0]",
+    "UiPath.Persistence.Activities": "[1.0.0-ce]",
+    "UiPath.System.Activities": "[18.3.6897.22524]",
+    "UiPath.UIAutomation.Activities": "[18.3.6897.22543]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.9.2.0",
+  "projectVersion": "1.0.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfos": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
